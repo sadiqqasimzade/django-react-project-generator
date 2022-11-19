@@ -1,3 +1,7 @@
+* [English](README.md)
+* [Русский](README-ru.md)
+
+
 # Requirements
 - Node.js
 - Python
@@ -19,7 +23,7 @@
   - Pillow
   - Modules can be changed in download_python_modules.bat file
 
-- Builds an API Django app and configures it to work with the rest framework.
+- Builds an Django app API and configures it to work with the rest framework.
 
 - Creates a Django frontend app that:
     - Starts npm and downloads:
@@ -28,13 +32,13 @@
         - sass 
         - webpack, webpack-cli, source-map-loader 
         - css-loader, sass-loader, style-loader
-        - Modules can be changed in npm_init.bat file.
+        - Modules can be changed in npm_init.bat file
    
     - Creates webpack config and configurates it to compile:
         - react scss and css modules
         - react and js with babel compiler
         - outputs minified js
-        - also creates map files for js
+        - also creates .map files for js
   
     - Creates:
         - Simple Hello World React App
