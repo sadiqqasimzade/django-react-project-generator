@@ -12,6 +12,7 @@
 - When the program prompts, enter the project's name.
 - If you want to create an environment, enter 'Y' when prompted by the program.
 - Wait
+- If you want to delete bat files , enter 'Y'
 - Emjoy =)
 
 # What this script is doing

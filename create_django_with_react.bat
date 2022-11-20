@@ -105,3 +105,27 @@ python manage.py makemigrations
 python manage.py migrate
 
 echo PROJECT CREATED
+
+setlocal
+:PROMPT
+SET /P DEL=Delete bat files?(Y/[N])?
+IF /I "%DEL%" NEQ "Y" GOTO END
+cd ..
+del create_app_js.bat
+del create_babel_json.bat
+del create_app_js.bat
+del create_index_html.bat
+del create_index_js.bat
+del create_manifest_json.bat
+del create_robots_txt.bat
+del create_scss.bat
+del create_settings_py.bat
+del create_webpack_js.bat
+del download_python_modules.bat
+del normal_to_bat.py
+del npm_init.bat
+del README-ru.md
+del README.md
+del create_django_with_react.bat
+:END
+endlocal
